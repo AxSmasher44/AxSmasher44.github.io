@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.section {
+    padding:10vh 5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar {
+    background: rgba(216, 206, 240,0.2) !important;  /* Give transparent white background to navbar */
+                                                   /* 0.2 to give little whitish effect. */
+                                                   /* Put 0 to get complete transperency */
+    z-index: 2;
+    backdrop-filter: blur(10px) saturate(125%);                   /* Blur the background */
+                                                                  /* 10px Gaussian Blur and saturate for fluent design */
+    -webkit-backdrop-filter: blur(10px) saturate(125%);           /* Increases browser compability (safari ios and mac) */
+    padding: 20px;
+}
+
+ 
+
+
+.s1{
+    background-image: url("Assets/img/back.png");
+    background-size: cover;
+    color: white;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+.s1 h1{
+    font-size: 10vh;
+    padding: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+
+.s1 hr{
+    margin-bottom: 8em;
+}
+
+.s1 h3{
+    margin-top: 10vh;
+    font-size: 5vh;
+    font-weight: lighter;
+}
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 3vh;
+    border-radius: 10px;
+    background: rgba(171, 177, 237, 0.3);
+    opacity: 5;
+    
+}
+
+.s2{
+    background-image: url("Assets/img/background.png");
+    background-size: cover;
+    color: white;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+    
+}
+
+.s2 h3{
+    padding-top: 3vh;
+    font-size: 4vh;
+}
+
+#intelligent{
+    padding-top: 7vh;
+    width: 45vw;
+    height: 50vh;
+    opacity: 100%;
+}
+
+.s2 img{
+    opacity: 40%;
+    height: 30vh;
+    bottom:0;
+}
+
+#intelligent line{
+
+}
+
+.s3{
+    background-image: url("Assets/img/h-heyerlein-ndja2LJ4IcM-unsplash.png");
+    background-size: cover;
+    color: white;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+    display: block;
+    padding-top: 20vh;
+}
+
+.s3 h3{
+    padding-top: 3vh;
+    font-size: 4vh;
+    
+}
+
+.s3 h1{
+    font-size: 10vw;
+    font-weight: bold;
+}
+
+.s3 p{
+    font-size: 2em;
+}
+.s4{
+    background-image: url("Assets/img/mahdis-mousavi-hJ5uMIRNg5k-unsplash (1).png");
+    background-size: cover;
+    color: white;
+    background-position: center;
+    width: auto;
+    height: 100vh;
+    padding-top: 30vh;
+}
+
+.s4 h1{
+    font-weight: bold;
+    font-size: 10vw;
+}
+
+.s4 p{
+    font-size: 1.5em;
+}
+
+.s4 hr{
+    width: 30vw;
+}
+
+.navbar-brand img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+
